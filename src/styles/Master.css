@@ -1,0 +1,50 @@
+.Background{
+    /*background-color: #14161E;*/
+    background-image: radial-gradient(#2e384d, #13151d);
+}
+
+.SubPage{
+    height: 100vh;
+    overflow-x: hidden;
+    text-align: center;
+    overflow-y: hidden;
+    color: #D4D8E5;
+}
+
+.centered {
+    height: 100vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 25px;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Scroll bar design*/
+body{
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+background: #14161E;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #3e4450;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #3e4450;
+}

@@ -1,0 +1,37 @@
+/*Custom Fonts*/
+@font-face {
+    font-family: 'AloneInSpace';
+    src: url('../fonts/AloneInSpaceReguler-qZ2xr.ttf'), url('../fonts/AloneInSpaceReguler-qZ2xr.ttf') format('truetype'),
+     url('../fonts/AloneInSpaceReguler-qZ2xr.ttf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AgeLast';
+    src: url('../fonts/Agelast-mLlAm.otf'), url('../fonts/Agelast-mLlAm.otf') format('truetype'),
+     url('../fonts/Agelast-mLlAm.otf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.TitleFont{
+    font-family:'AgeLast';
+    font-size: 60px;
+    letter-spacing: .2em;
+    margin-right:-.2em;
+    text-align: center;
+}
+
+.BriefIntro{
+    opacity: 1;
+    border-top: 1px solid #858996;
+    color: #D4D8E5;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    letter-spacing: 0.1em;
+    font-family: "AgeLast";
+    text-align: center;
+}
