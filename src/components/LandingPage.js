@@ -1,6 +1,7 @@
 import './../styles/Stars.scss';
 import './../styles/Fonts.css';
 import './../styles/Master.css';
+import './../styles/LandingPage.css'
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faFilePdf, faUser } from '@fortawesome/free-regular-svg-icons'
@@ -15,7 +16,7 @@ export default function LandingPage() {
                 <div id='stars'></div>
                 <div id='stars2'></div>
                 <div id='stars3'></div>
-                <div id='wave'></div>
+                
             </div>
 
             <div className="centered">
@@ -37,9 +38,12 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="landingButtons">
+                            <div className="divSep1">
                             <a href={Resume} className="buttonLand">RESUME</a>
-                            <div class="divider"/>
+                            </div>
+                            <div className="divSep2">
                             <a href="#Contact" className="buttonLand">CONTACT</a>
+                            </div>
                         </div>
                     </div>
 
