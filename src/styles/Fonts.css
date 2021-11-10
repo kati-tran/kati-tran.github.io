@@ -21,12 +21,13 @@
     letter-spacing: .2em;
     margin-right:-.2em;
     text-align: center;
+    color: rgb(212, 216, 229);
 }
 
 .BriefIntro{
     opacity: 1;
     border-top: 1px solid #858996;
-    color: #D4D8E5;
+    color: rgb(212, 216, 229);
     margin-top: 20px;
     padding-top: 20px;
     font-size: 18px;

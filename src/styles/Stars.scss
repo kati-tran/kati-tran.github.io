@@ -140,3 +140,97 @@ $stars-big:    generateStars(110);
   75%{@include rotateLeft;}
   100%{@include rotateBase;}
 }
+
+#waveContainer{
+  overflow: hidden;
+  position: absolute;
+}
+
+#wave:after {
+    content: '';
+    width: 115%;
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+    background: transparent;
+    display: inline-block;
+    margin:auto;
+    top: 75%; left: -10%; right: 50%; bottom: -20%;
+    border: 2px double rgb(212, 216, 229, .5);
+    border-radius: 50%;
+    animation : animateCircles1 33.5s ease infinite;
+    transform: rotate(-5deg);
+}
+
+#wave:before {
+    content: '';
+    width: 115%;
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    background: transparent;
+    display: inline-block;
+    margin:auto;
+    top: 75%; left: -10%; right: 0; bottom: -20%;
+    border: 2px double rgb(212, 216, 229, .7);
+    border-radius: 50%;
+    animation : animateCircles2 35.5s ease infinite;
+    transform: rotate(20deg);
+}
+
+
+@mixin rotateBaseCircle1
+{
+  transform: rotate(0deg);
+  opacity: 0.5;
+}
+
+@mixin rotateRightCircle1
+{
+  transform: rotate(10deg);
+  opacity: 0.1;
+}
+
+@mixin rotateLeftCircle1
+{
+  transform: rotate(10deg);
+  opacity: 0.1;
+}
+
+@mixin rotateBaseCircle2
+{
+  transform: scale(2, 1);
+  transform: rotate(30deg);
+  opacity: 0.1;
+}
+
+@mixin rotateRightCircle2
+{
+  transform: scale(2, 1.1);
+  transform: rotate(20deg);
+  opacity: 0.4;
+}
+
+@mixin rotateLeftCircle2
+{
+  transform: scale(2, 1.1);
+  transform: rotate(10deg);
+  opacity: 0.7;
+}
+
+@keyframes animateCircles1
+{
+  0%{@include rotateBaseCircle1;}
+  25%{@include rotateRightCircle1;}
+  50%{@include rotateBaseCircle1;}
+  75%{@include rotateLeftCircle1;}
+  100%{@include rotateBaseCircle1;}
+}
+@keyframes animateCircles2
+{
+  0%{@include rotateLeftCircle2;}
+  25%{@include rotateRightCircle2;}
+  50%{@include rotateBaseCircle2;}
+  75%{@include rotateRightCircle2;}
+  100%{@include rotateLeftCircle2;}
+}

@@ -1,5 +1,6 @@
 import React from "react";
+import './../styles/Master.css';
 
 export default function About() {
-    return (<h1>Yellow</h1>)
+    return (<div id="About" className="SubPage"><h1>Hello</h1></div>)
 }
