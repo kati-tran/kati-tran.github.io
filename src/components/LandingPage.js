@@ -1,4 +1,3 @@
-import logo from '../logo.svg';
 import './../styles/Stars.scss';
 import './../styles/Fonts.css';
 import './../styles/Master.css';
@@ -7,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faFilePdf, faUser } from '@fortawesome/free-regular-svg-icons'
 import { faChevronDown, faSortDown } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import Resume from './../files/Kati_Tran_Resume_11_10_2021.pdf'
 
 export default function LandingPage() {
     return (
@@ -28,15 +28,23 @@ export default function LandingPage() {
                             <div id="social-test">
                                 <div className="social">
                                     <a title="@katit1" href="https://www.linkedin.com/in/katit1/"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
+                                    <div class="divider"/>
                                     <a title="@kati-tran" href="https://github.com/kati-tran"><FontAwesomeIcon className="icon" icon={faGithub} /></a>
+                                    <div class="divider"/>
                                     <a title="Portfolio" href="#About"><FontAwesomeIcon className="icon" icon={faUser} /></a>
                                 </div>
+
                             </div>
                         </div>
+                        <div className="landingButtons">
+                            <a href={Resume} className="buttonLand">RESUME</a>
+                            <div class="divider"/>
+                            <a href="#Contact" className="buttonLand">CONTACT</a>
+                        </div>
                     </div>
-                    
+
                 </div>
-                
+
             </div>
 
         </div>

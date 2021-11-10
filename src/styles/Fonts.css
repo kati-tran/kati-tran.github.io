@@ -24,6 +24,14 @@
     color: rgb(212, 216, 229);
 }
 
+.CategoryFont{
+    font-family:'AgeLast';
+    font-size: 40px;
+    letter-spacing: .2em;
+    margin-right:-.2em;
+    color: rgb(212, 216, 229);
+}
+
 .BriefIntro{
     opacity: 1;
     border-top: 1px solid #858996;

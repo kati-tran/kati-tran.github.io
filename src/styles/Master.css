@@ -27,6 +27,18 @@
     align-items: center;
 }
 
+.subContainer{
+    margin: 25px;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background: rgb(21, 22, 29, .8);
+    border:2px double rgb(212, 216, 229);
+    z-index: 1;
+}
+
 /* 
 Scroll bar design
 */
@@ -72,7 +84,7 @@ Navigation
         transition-timing-function: cubic-bezier(10,2,3,1);
         transform: translateX(50rem);
         top: 0;
-        z-index: 1;
+        z-index: 999;
         transition: 0.5s;
     }
   }
@@ -87,7 +99,7 @@ Navigation
       transition-timing-function: cubic-bezier(10,2,3,1);
       transform: translateX(50rem);
       top: 0;
-      z-index: 1;
+      z-index: 999;
       transition: 0.5s;
   }
 }
@@ -107,7 +119,7 @@ Navigation
       height: 2rem;
       right: 2rem;
       top: 2rem;
-      z-index: 2;
+      z-index: 1000;
       display: flex;
       justify-content: space-between;
       flex-direction: column;
@@ -187,7 +199,7 @@ Icons
 
 #social-test .social {
     padding-left: 0px;
-    padding-right: 9px
+
 }
 #social-test a {
     color: rgba(212,216,219,0.6);
@@ -198,7 +210,6 @@ Icons
     line-height: 50px;
     padding: 1%;
     cursor: pointer;
-    margin-left: 10px;
     margin-bottom: 20px;
     transition: ease .3s;
     position: relative;
@@ -214,6 +225,7 @@ Icons
     color: rgba(212,216,219, 1);
     border: 1px solid rgba(212,216,219, 1);
 }
+
 #social-test a:hover{
     color: rgba(212,216,219, 1);
 }
@@ -221,6 +233,7 @@ Icons
 .social:hover > a {
     opacity: 0.5;
 }
+
 .social:hover > a:hover{
     opacity: 1;
 }
@@ -246,4 +259,79 @@ animation: bounce 5s infinite;
 40% {
     transform: translateY(-30px);
 }
+}
+
+.divider{
+    width:10px;
+    height:auto;
+    display:inline-block;
+}
+
+.landingButtons{
+    padding-top: 20px;
+}
+
+.landingButtons a{
+    color: rgba(212,216,219,0.6);
+    list-style-type: none;
+    display: inline-block;
+    padding: 1%;
+    cursor: pointer;
+    transition: ease .3s;
+    position: relative;
+    background-color: transparent;
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+/* CSS */
+.landingButtons a {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid rgba(212,216,219,0.6);
+  box-sizing: border-box;
+  color: rgba(212,216,219,0.6);
+  cursor: pointer;
+  display: inline-flex;
+  fill: rgba(212,216,219,0.6);
+  font-family: 'AgeLast';
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  letter-spacing: 0.1em;
+}
+
+.landingButtons a:focus {
+  color: #171e29;
+}
+
+.landingButtons a:hover {
+  border-color: rgba(212,216,219, 1);
+  color: rgba(212,216,219, 1);
+}
+
+.landingButtons a:active {
+  border-color: rgba(212,216,219, 1);
+  color: rgba(212,216,219, 1);
+}
+
+@media (min-width: 768px) {
+  .landingButtons a {
+    min-width: 170px;
+  }
 }
