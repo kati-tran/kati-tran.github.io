@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3f36672.chunk.css",
+    "main.js": "/static/js/main.7d32db02.chunk.js",
+    "main.js.map": "/static/js/main.7d32db02.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.43217137.js",
+    "runtime-main.js.map": "/static/js/runtime-main.43217137.js.map",
+    "static/js/2.5cde01f8.chunk.js": "/static/js/2.5cde01f8.chunk.js",
+    "static/js/2.5cde01f8.chunk.js.map": "/static/js/2.5cde01f8.chunk.js.map",
+    "static/js/3.085419f4.chunk.js": "/static/js/3.085419f4.chunk.js",
+    "static/js/3.085419f4.chunk.js.map": "/static/js/3.085419f4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e3f36672.chunk.css.map": "/static/css/main.e3f36672.chunk.css.map",
+    "static/js/2.5cde01f8.chunk.js.LICENSE.txt": "/static/js/2.5cde01f8.chunk.js.LICENSE.txt",
+    "static/media/Fonts.css": "/static/media/TruenoUltralight-DKax.75c56177.otf",
+    "static/media/Kati_Tran_Resume_11_10_2021.80605a21.pdf": "/static/media/Kati_Tran_Resume_11_10_2021.80605a21.pdf",
+    "static/media/astera.e05a74c1.gif": "/static/media/astera.e05a74c1.gif",
+    "static/media/crackfic.ad3f9c38.JPG": "/static/media/crackfic.ad3f9c38.JPG",
+    "static/media/faceboi.a207c0fa.jpg": "/static/media/faceboi.a207c0fa.jpg",
+    "static/media/imgKaiserBot.e74c314f.JPG": "/static/media/imgKaiserBot.e74c314f.JPG",
+    "static/media/imgPortfolio.2639719b.JPG": "/static/media/imgPortfolio.2639719b.JPG",
+    "static/media/qwertunes.d0fa76da.JPG": "/static/media/qwertunes.d0fa76da.JPG",
+    "static/media/riddlemethis.afe8d5e1.JPG": "/static/media/riddlemethis.afe8d5e1.JPG",
+    "static/media/sleeptracker.60f29e6b.gif": "/static/media/sleeptracker.60f29e6b.gif",
+    "static/media/tinybiz.1fa1e8a0.jpg": "/static/media/tinybiz.1fa1e8a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43217137.js",
+    "static/js/2.5cde01f8.chunk.js",
+    "static/css/main.e3f36672.chunk.css",
+    "static/js/main.7d32db02.chunk.js"
+  ]
+}
