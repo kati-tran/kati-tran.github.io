@@ -1,0 +1,166 @@
+
+.projectCentered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subProjectContainer{
+    margin: 25px;
+    width: 85%;
+    justify-content: center;
+    background: rgb(21, 22, 29, .8);
+    border:2px double rgb(212, 216, 229);
+    z-index: 1;  
+}
+
+.ProjectPage{
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: #D4D8E5;
+}
+
+@media (max-width: 768px) {
+    ul.nav {
+        width: 90%;
+        margin: 0 auto 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #39A2DB;
+        border-radius: 2rem;
+      }
+}
+/* Tab Container */
+.Tabs {
+    margin: 25px;
+    height: 85%;
+    justify-content: center;
+    border-top:1px solid #858996;
+    z-index: 1;
+}
+.nav{
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* CSS */
+.nav a {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  color: rgba(212,216,219,0.5);
+  cursor: pointer;
+  display: inline-flex;
+  fill: rgba(212,216,219,0.5);
+  font-family: 'AgeLast';
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  letter-spacing: 0.1em;
+}
+
+.nav a:focus {
+  color: #171e29;
+}
+
+.nav:hover > a {
+    opacity: 0.5;
+}
+.nav:hover > a:hover{
+    opacity: 1;
+}
+
+
+.nav a:hover {
+  border-color: rgba(212,216,219, 1);
+  color: rgba(212,216,219, 1);
+}
+
+.nav a.active {
+  border-color: rgba(212,216,219, 1);
+  color: rgba(212,216,219, 1);
+}
+
+.projectContainer{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 60vh;
+    border-top: 1px solid #858996;
+    border-bottom: 1px solid #858996;
+  }
+.itemRow{
+    padding: 1%;
+    border-bottom: 1px solid #858996;
+}
+
+@media (min-width: 900px) {
+    /* CSS */
+    .nav a {
+        align-items: center;
+        background-color: transparent;
+        border: 1px solid rgba(212,216,219,0.5);
+        box-sizing: border-box;
+        color: rgba(212,216,219,0.5);
+        cursor: pointer;
+        display: inline-flex;
+        fill: rgba(212,216,219,0.5);
+        font-family: 'AgeLast';
+        font-size: 16px;
+        font-weight: 600;
+        height: 48px;
+        justify-content: center;
+        line-height: 24px;
+        min-width: 140px;
+        outline: 0;
+        padding: 0 17px;
+        text-align: center;
+        text-decoration: none;
+        transition: all .3s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        letter-spacing: 0.1em;
+    }
+    .itemRow{
+        padding: 1%;
+        border-bottom: 1px solid #858996;
+        display:flex;
+    }
+    .itemCol4{
+        width: 35%;
+    }
+    .itemCol8{
+        width: 85%;
+    }
+}
+
+.fit_image {
+    width: 100%;
+    height: 90%;
+}
+.itemCol4 img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.projIconLink{
+    margin: auto;
+}
+.projIcon{
+    font-size: 25px;
+    color: rgb(212, 216, 229);
+    text-align: center;
+}

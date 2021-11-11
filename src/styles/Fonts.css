@@ -64,6 +64,17 @@
     text-align: center;
 }
 
+.subHeader{
+    font-family:'TruenoExtraBold';
+    letter-spacing: 0.1em;
+    font-size: 18px;
+}
+
+.projectTech{
+    letter-spacing: 0.1em;
+    font-family: "AgeLast";
+}
+
 .aboutText{
     font-family:'TruenoUltraLight';
 }
@@ -80,7 +91,6 @@
 }
 
 
-
 .csharpText{
     font-family:'TruenoExtraBold';
     padding: 0;
@@ -90,5 +100,16 @@
 
 .aboutSubHeader{
     font-family:'TruenoUltraLight';
+    text-align: center;
+}
+
+.contactFormEmail{
+    opacity: 1;
+    color: rgb(212, 216, 229);
+    margin-top: 20px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    letter-spacing: 0.1em;
+    font-family: "TruenoUltraLight";
     text-align: center;
 }

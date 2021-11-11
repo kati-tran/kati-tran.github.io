@@ -90,7 +90,7 @@ Navigation
 
   @media all and (min-width:1024px){
   #meny {
-      background: rgb(21, 22, 29, .5);
+      background: rgb(21, 22, 29, .7);
       width: 20rem;
       height: 100vh;
       position: fixed;

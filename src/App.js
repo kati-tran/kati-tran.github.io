@@ -23,9 +23,9 @@ function App() {
         <ul className="menu__list">
           <li className="menu__item"><a className="menu__link" href="#LandingPage">Home</a></li>
           <li className="menu__item"><a className="menu__link" href="#About">About Me</a></li>
+          <li className="menu__item"><a className="menu__link" href="#Projects">Projects</a></li>
           <li className="menu__item"><a className="menu__link" href="#">Work Experience</a></li>
-          <li className="menu__item"><a className="menu__link" href="#">Projects</a></li>
-          <li className="menu__item"><a className="menu__link" href="#">Contact</a></li>
+          <li className="menu__item"><a className="menu__link" href="#Contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -36,7 +36,6 @@ function App() {
         <div id='stars3'></div>
       </div>
       <About />
-      <WorkExperience />
       <Projects />
       <Contact />
     </main>
