@@ -2,7 +2,7 @@ import './styles/Stars.scss';
 import './styles/Master.css';
 import './styles/NavBar.scss';
 
-import React from "react";
+import React,{useEffect}  from "react";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import WorkExperience from "./components/WorkExperience";
@@ -12,8 +12,12 @@ import Contact from "./components/Contact";
 import ReactGA from 'react-ga';
 
 function App() {
-  ReactGA.initialize("UA-212548215-1");
-  ReactGA.pageview(window.location.pathname + window.location.search);
+
+  useEffect(() => {
+    ReactGA.initialize("UA-212548215-1");
+    ReactGA.pageview("/");
+  })
+
   return (
     <main className="Background">
       <input type="checkbox" id="menyAvPaa" />
