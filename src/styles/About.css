@@ -19,7 +19,7 @@
     z-index: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
     .aboutCentered {
         height: 100vh; /* Magic here */
         display: flex;
@@ -106,4 +106,18 @@
 .aboutButton a:active {
   border-color: rgba(212,216,219, 1);
   color: rgba(212,216,219, 1);
+}
+
+.skillTable{
+    z-index: 2;
+    font-size: 20px;
+}
+.abtIcon{
+    font-size: 50px
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
 }
