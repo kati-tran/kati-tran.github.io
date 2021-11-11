@@ -44,5 +44,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+"homepage": "http://kati-tran.github.io",
+"scripts": { 
+ "start": "react-scripts start",
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d build",
+ "build": "react-scripts build",
+ "test": "react-scripts test",
+ "eject": "react-scripts eject"
+}
 }
