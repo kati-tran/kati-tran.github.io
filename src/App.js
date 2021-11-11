@@ -9,8 +9,11 @@ import WorkExperience from "./components/WorkExperience";
 import LandingPage from "./components/LandingPage";
 import Contact from "./components/Contact";
 
+import ReactGA from 'react-ga';
+
 function App() {
-  
+  ReactGA.initialize("UA-212548215-1");
+  ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <main className="Background">
       <input type="checkbox" id="menyAvPaa" />

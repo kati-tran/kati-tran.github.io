@@ -16,6 +16,7 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.2",
     "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
     "react-hexagon": "^1.1.3",
     "react-icons": "^4.3.1",
     "react-scripts": "4.0.3",
@@ -23,6 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,13 +48,5 @@
       "last 1 safari version"
     ]
   },
-"homepage": "http://kati-tran.github.io",
-"scripts": { 
- "start": "react-scripts start",
- "predeploy": "npm run build",
- "deploy": "gh-pages -d build",
- "build": "react-scripts build",
- "test": "react-scripts test",
- "eject": "react-scripts eject"
-}
+  "homepage": "http://kati-tran.github.io"
 }
