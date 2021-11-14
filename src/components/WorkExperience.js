@@ -63,7 +63,7 @@ export default function WorkExperience() {
             <div className="projectCentered">
 
                 <div className="subProjectContainer">
-                    <h1 className="CategoryFont">EXPERIENCE</h1>
+                    <h1 className="WorkCategoryFont">EXPERIENCE</h1>
                     <div className="Tabs">
                         <div className="nav">
                             <a

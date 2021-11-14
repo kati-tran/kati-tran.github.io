@@ -64,6 +64,24 @@
     text-align: center;
 }
 
+.WorkCategoryFont{
+    font-family:'AgeLast';
+    font-size: 30px;
+    letter-spacing: .2em;
+    text-align: center;
+    color: rgb(212, 216, 229);
+}
+@media (min-width: 450px) {
+    .WorkCategoryFont{
+        font-family:'AgeLast';
+        font-size: 40px;
+        letter-spacing: .2em;
+        text-align: center;
+        color: rgb(212, 216, 229);
+    }
+}
+
+
 .subHeader{
     font-family:'TruenoExtraBold';
     letter-spacing: 0.1em;
