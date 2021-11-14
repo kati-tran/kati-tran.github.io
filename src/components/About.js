@@ -20,7 +20,7 @@ export default function About() {
                             <h1 className="aboutText">Hi, I'm Kati!</h1>
                             <p className="aboutText">I’m a software engineer with an interest in web, mobile, and game development. I recently graduated from UC Irvine with a bachelor’s in Software Engineering, where I picked up my skills in programming, project management, and product design.</p>
                             <p className="aboutText">The unique combination of creativity, logic, technology, and never running out of new things to discover drives my excitement and passion for software engineering. It’s easy to get me rambling about some new big and bright idea that I just can’t wait to develop. I’m definitely always ready to learn and discover something new.</p>
-                            <p className="aboutText">In my free time, I greatly enjoy creative writing and digital art, even going as far as to bind my own books. It’s one of my dreams to create my own hit game one day, combining all my skills and interested into one complete package. </p>
+                            <p className="aboutText">In my free time, I greatly enjoy creative writing and digital art, even going as far as to bind my own books. It’s one of my dreams to create my own hit game one day, combining all my skills and interests into one complete package. </p>
                             <p className="aboutText">If you're wondering about the space theme, I just think it's cute.</p>
                             <div className="aboutButton">
                                 <a href="#Projects" className="buttonAbt">SEE MY PROJECTS</a>
