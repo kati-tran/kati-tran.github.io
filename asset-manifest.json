@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc860232.chunk.css",
-    "main.js": "/static/js/main.08e3daec.chunk.js",
-    "main.js.map": "/static/js/main.08e3daec.chunk.js.map",
+    "main.css": "/static/css/main.dd1d57d0.chunk.css",
+    "main.js": "/static/js/main.ea784390.chunk.js",
+    "main.js.map": "/static/js/main.ea784390.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b46b7dfb.js",
     "runtime-main.js.map": "/static/js/runtime-main.b46b7dfb.js.map",
     "static/js/2.7158f6c4.chunk.js": "/static/js/2.7158f6c4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.88855421.chunk.js": "/static/js/3.88855421.chunk.js",
     "static/js/3.88855421.chunk.js.map": "/static/js/3.88855421.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.bc860232.chunk.css.map": "/static/css/main.bc860232.chunk.css.map",
+    "static/css/main.dd1d57d0.chunk.css.map": "/static/css/main.dd1d57d0.chunk.css.map",
     "static/js/2.7158f6c4.chunk.js.LICENSE.txt": "/static/js/2.7158f6c4.chunk.js.LICENSE.txt",
     "static/media/Fonts.css": "/static/media/TruenoUltralight-DKax.75c56177.otf",
     "static/media/Fan360 Presentation.1e14b2a3.pdf": "/static/media/Fan360 Presentation.1e14b2a3.pdf",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.b46b7dfb.js",
     "static/js/2.7158f6c4.chunk.js",
-    "static/css/main.bc860232.chunk.css",
-    "static/js/main.08e3daec.chunk.js"
+    "static/css/main.dd1d57d0.chunk.css",
+    "static/js/main.ea784390.chunk.js"
   ]
 }
