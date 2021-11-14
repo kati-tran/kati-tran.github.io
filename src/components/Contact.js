@@ -4,7 +4,7 @@ import './../styles/Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faFilePdf, faUser } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import Resume from './../files/Kati_Tran_Resume_11_10_2021.pdf'
+import Resume from './../files/Kati_Tran_Resume.pdf'
 
 export default function Contact() {
     const [name, setName] = React.useState("");
@@ -30,17 +30,17 @@ export default function Contact() {
             .catch((error) => alert(error));
     }
 
-    return (<div id="Contact" className="ProjectPage">
-        <div className="projectCentered">
+    return (<div id="Contact" className="ContactPage">
+        <div className="contactCentered">
             <div className="subContactContainer">
                 <h1 className="CategoryFont">Contact Me</h1>
                 <p className="contactFormEmail">KATI.TRAN1@GMAIL.COM</p>
                 <div className="contactButtons">
                     <div className="divSep1">
-                        <a title="@katit1" href="https://www.linkedin.com/in/katit1/" className="buttonContact">LINKEDIN</a>
+                        <a title="@katit1" target="_blank" href="https://www.linkedin.com/in/katit1/" className="buttonContact">LINKEDIN</a>
                     </div>
                     <div className="divSep1">
-                        <a title="@kati-tran" href="https://github.com/kati-tran" className="buttonContact">GITHUB</a>
+                        <a title="@kati-tran" target="_blank" href="https://github.com/kati-tran" className="buttonContact">GITHUB</a>
                     </div>
                     <div className="divSep1">
                         <a href={Resume} className="buttonContact">RESUME</a>

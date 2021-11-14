@@ -1,3 +1,14 @@
+.ContactPage{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: #D4D8E5;
+}
+.contactCentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: rgb(212, 216, 229);;
   font-size: 0.875em;

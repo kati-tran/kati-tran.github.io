@@ -75,6 +75,11 @@
     font-family: "AgeLast";
 }
 
+.removePaddingAndMargin{
+    margin: 0;
+    padding: 0;
+}
+
 .aboutText{
     font-family:'TruenoUltraLight';
 }

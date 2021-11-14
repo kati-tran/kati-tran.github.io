@@ -21,6 +21,15 @@
     color: #D4D8E5;
 }
 
+@media (min-width: 850px) {
+    .projectCentered {
+        height: 100vh; /* Magic here */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media (max-width: 768px) {
     ul.nav {
         width: 90%;

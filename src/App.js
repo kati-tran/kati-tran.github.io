@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     ReactGA.initialize("UA-212548215-1");
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.pageview("/#");
   })
 
   return (
@@ -31,7 +31,7 @@ function App() {
           <li className="menu__item"><a className="menu__link" href="#LandingPage">Home</a></li>
           <li className="menu__item"><a className="menu__link" href="#About">About Me</a></li>
           <li className="menu__item"><a className="menu__link" href="#Projects">Projects</a></li>
-          <li className="menu__item"><a className="menu__link" href="#">Work Experience</a></li>
+          <li className="menu__item"><a className="menu__link" href="#WorkExperience">Work Experience</a></li>
           <li className="menu__item"><a className="menu__link" href="#Contact">Contact</a></li>
         </ul>
       </nav>
@@ -44,6 +44,12 @@ function App() {
       </div>
       <About />
       <Projects />
+      <div id="stars-container">
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+      </div>
+      <WorkExperience />
       <Contact />
     </main>
   );

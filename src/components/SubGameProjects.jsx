@@ -26,8 +26,8 @@ const SubGameProjects = () => {
                         <div className="itemCol8">
                             <h1 className="subHeader">Astera</h1>
                         </div>
-                        <a className="projIconLink" title="@kati-tran" href="https://github.com/kati-tran/Astera"><FontAwesomeIcon className="projIcon" icon={faGithub} /></a>
-                        <a className="projIconLink" title="Astera" href="http://pseudologica.herokuapp.com/"><FontAwesomeIcon className="projIcon" icon={faLink} /></a>
+                        <a className="projIconLink" title="@kati-tran" target="_blank" href="https://github.com/kati-tran/Astera"><FontAwesomeIcon className="projIcon" icon={faGithub} /></a>
+                        <a className="projIconLink" title="Astera" target="_blank" href="http://pseudologica.herokuapp.com/"><FontAwesomeIcon className="projIcon" icon={faLink} /></a>
                         </div>
                         <p className="aboutText">A low poly 2D platformer in which the player controls a black cat who is lost in the woods and must find their way back home. I designed and contributed in the development of the vision and implementation of the game with a small team of developers. Play it using the link!</p>
                         <p className="projectTech">UNITY - C#</p>
@@ -44,8 +44,8 @@ const SubGameProjects = () => {
                         <div className="itemCol8">
                             <h1 className="subHeader">faceboi</h1>
                         </div>
-                        <a className="projIconLink" title="@kati-tran" href="https://github.com/kati-tran/faceboi"><FontAwesomeIcon className="projIcon" icon={faGithub} /></a>
-                        <a className="projIconLink" title="faceboi" href="https://devpost.com/software/faceboi-4waoy1"><FontAwesomeIcon className="projIcon" icon={faLink} /></a>
+                        <a className="projIconLink" title="@kati-tran" target="_blank" href="https://github.com/kati-tran/faceboi"><FontAwesomeIcon className="projIcon" icon={faGithub} /></a>
+                        <a className="projIconLink" title="faceboi" target="_blank" href="https://devpost.com/software/faceboi-4waoy1"><FontAwesomeIcon className="projIcon" icon={faLink} /></a>
                         </div>
                         <p className="aboutText" style={{margin: 0}}>An endless runner game that includes computer vision to implement facial recognition game-play features. This game was created for HackUCI 2020 as an introduction to game development. I was the lead developer and designer.</p>
                         <p className="projectTech">UNITY - C#</p>

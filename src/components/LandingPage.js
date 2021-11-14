@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faFilePdf, faUser } from '@fortawesome/free-regular-svg-icons'
 import { faChevronDown, faSortDown } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import Resume from './../files/Kati_Tran_Resume_11_10_2021.pdf'
+import Resume from './../files/Kati_Tran_Resume.pdf'
 
 export default function LandingPage() {
     return (
@@ -28,9 +28,9 @@ export default function LandingPage() {
                         <div className="socialTable">
                             <div id="social-test">
                                 <div className="social">
-                                    <a title="@katit1" href="https://www.linkedin.com/in/katit1/"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
+                                    <a title="@katit1" target="_blank" href="https://www.linkedin.com/in/katit1/"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
                                     <div class="divider"/>
-                                    <a title="@kati-tran" href="https://github.com/kati-tran"><FontAwesomeIcon className="icon" icon={faGithub} /></a>
+                                    <a title="@kati-tran" target="_blank" href="https://github.com/kati-tran"><FontAwesomeIcon className="icon" icon={faGithub} /></a>
                                     <div class="divider"/>
                                     <a title="Portfolio" href="#About"><FontAwesomeIcon className="icon" icon={faUser} /></a>
                                 </div>

@@ -41,7 +41,7 @@ const SubMobileProjects = () => {
                     <div className="itemCol8">
                         <div style={{display:'flex'}}>
                         <div className="itemCol8">
-                            <h1 className="subHeader">PocketStore</h1>
+                            <h1 className="subHeader">PocketStart</h1>
                         </div>
                         </div>
                         <p className="aboutText">A mobile app to connect local small businesses to customers. Inspired by Facebook(Meta) crashing earlier this year. This app is currently in development (as in I'm working on it right now). Feel free to ask me about it! 👀👀</p>
