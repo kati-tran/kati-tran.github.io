@@ -16,7 +16,7 @@ export default function WorkExperience() {
                     web applications and deploying code to multiple production servers accessed by over 400,000 users per day.</li>
                 <li className="aboutText">Responsible for creating, using, and maintaining hundreds of CRUD stored procedures, transitioning dated business logic using standard SQL connections with ADO to instead organized data transformation objects, tiered architecture, and the repository pattern.</li>
                 <li className="aboutText">Error-checking, rewriting, and refactoring code up to a decade in age, speeding up load times and preventing destructive bugs.</li>
-                <li className="aboutText">Programming dozens of custom tool managers for both clients and in-house employees and improving business performance.</li>
+                <li className="aboutText">Programming dozens of custom tool managers for both clients and in-house employees and improving business performance with the creation of various administrator pages.</li>
             </ul>
         </div>
     } else if (activeTab === "tab2") {
