@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1361cb5.chunk.css",
-    "main.js": "/static/js/main.5568be47.chunk.js",
-    "main.js.map": "/static/js/main.5568be47.chunk.js.map",
+    "main.css": "/static/css/main.c9ac945f.chunk.css",
+    "main.js": "/static/js/main.a25e2435.chunk.js",
+    "main.js.map": "/static/js/main.a25e2435.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b46b7dfb.js",
     "runtime-main.js.map": "/static/js/runtime-main.b46b7dfb.js.map",
     "static/js/2.7158f6c4.chunk.js": "/static/js/2.7158f6c4.chunk.js",
@@ -10,11 +10,11 @@
     "static/js/3.88855421.chunk.js": "/static/js/3.88855421.chunk.js",
     "static/js/3.88855421.chunk.js.map": "/static/js/3.88855421.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b1361cb5.chunk.css.map": "/static/css/main.b1361cb5.chunk.css.map",
+    "static/css/main.c9ac945f.chunk.css.map": "/static/css/main.c9ac945f.chunk.css.map",
     "static/js/2.7158f6c4.chunk.js.LICENSE.txt": "/static/js/2.7158f6c4.chunk.js.LICENSE.txt",
     "static/media/Fonts.css": "/static/media/TruenoUltralight-DKax.75c56177.otf",
     "static/media/Fan360 Presentation.1e14b2a3.pdf": "/static/media/Fan360 Presentation.1e14b2a3.pdf",
-    "static/media/Kati_Tran_Resume.93cdf720.pdf": "/static/media/Kati_Tran_Resume.93cdf720.pdf",
+    "static/media/Kati_Tran_Resume.0e80d5a3.pdf": "/static/media/Kati_Tran_Resume.0e80d5a3.pdf",
     "static/media/astera.e05a74c1.gif": "/static/media/astera.e05a74c1.gif",
     "static/media/crackfic.ad3f9c38.JPG": "/static/media/crackfic.ad3f9c38.JPG",
     "static/media/faceboi.a207c0fa.jpg": "/static/media/faceboi.a207c0fa.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.b46b7dfb.js",
     "static/js/2.7158f6c4.chunk.js",
-    "static/css/main.b1361cb5.chunk.css",
-    "static/js/main.5568be47.chunk.js"
+    "static/css/main.c9ac945f.chunk.css",
+    "static/js/main.a25e2435.chunk.js"
   ]
 }
